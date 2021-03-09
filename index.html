@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>NutrYourLife - Ficha Cadastral</title>
+</head>
+<body>
+	<header id="cabecalho">
+		<div class="container">
+			<div class="logo">
+				NutrYour<span>Life</span>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="">Agendar</a></li>
+					<li><a href="">Login</a></li>
+					<li><a href="">Cadastrar</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section id="ficha">
+		<div class="container fichacont">
+			<div class="fichatitle">
+				<h1>Bem vindo ao</h1> 
+				<span id="fichatitledivision">NutrYour<span id="fichatitlestyle">Life</span></span>
+				<h2>Preencha o formulário abaixo para se cadastrar na NutrYourLife.</h2>
+			</div>
+			<form class="form" name="input" method="get">
+				<div class="person">
+					<div class="formitem">
+						Nome Completo*:<br>
+						<input type="text" name="nome" required placeholder="Nome completo">
+					</div>
+					<div class="formitem">
+						Data de Nascimento*:<br>
+						<input type="date" name="data" required placeholder="Data de Nascimento">
+					</div>
+					<div class="formitem">
+						Sexo:<br>
+						<input type="checkbox" name="sexo" value="masculino">
+						Masculino
+						<input type="checkbox" name="sexo" value="feminino">
+						Feminino
+						<input type="checkbox" name="sexo" value="outro">
+						Outro
+					</div>
+					<div class="formitem">
+						CPF*:<br>
+						<input type="text" name="cpf" required placeholder="CPF">
+					</div>
+					<div class="formitem">
+						E-mail*:<br>
+						<input type="email" name="email" required placeholder="E-mail">
+					</div>
+					<div class="formitem">
+						WhatsApp:<br>
+						<input type="tel" name="whatsapp" placeholder="WhatsApp">
+					</div>
+				</div>
+				<div class="formline"></div>
+				<div class="personbody">
+					<div class="formitem">
+						Peso*:<br>
+						<input type="number" name="peso" min="1" max="500" required placeholder="Peso">
+					</div>
+					<div class="formitem">
+						Tronco(cm)*:<br>
+						<input type="number" name="tronco" min="1" max="500" required placeholder="Tronco">
+					</div>
+					<div class="formitem">
+						Biceps(cm)*:<br>
+						<input type="number" name="biceps" min="1" max="500" required placeholder="Biceps">
+					</div>
+					<div class="formitem">
+						Quadril(cm)*:<br>
+						<input type="number" name="quadril" min="1" max="500" required placeholder="Quadril">
+					</div>
+					<div class="formitem">
+						Coxa(cm)*:<br>
+						<input type="number" name="coxa" min="1" max="500" required placeholder="Coxa">
+					</div>
+					<div class="formitem">
+						Panturrilha(cm)*:<br>
+						<input type="number" name="panturrilha" min="1" max="500" required placeholder="Panturrilha">
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
