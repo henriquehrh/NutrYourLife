@@ -1,0 +1,137 @@
+*{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/nutri.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 2200px 1300px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1040px;
+	height: 100%;
+}
+
+#cabecalho{
+	width: 100%;
+	height:50px;
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: center;
+}
+
+.logo{
+	color:#FFF;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.logo span{
+	color: green;
+}
+
+.menu{
+		color:#FFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#cabecalho ul{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+
+#cabecalho ul a{
+	text-decoration: none;
+	color: #FFF;
+	transition: all 0.3s;
+}
+
+#cabecalho ul a:hover{
+	color:green;
+}
+
+#cabecalho ul li{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+#ficha{
+	width: 100%;
+	height:auto;
+	display: flex;	
+	justify-content: center;
+	margin-top: 70px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.fichacont{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.fichatitle{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.fichatitle h2{
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#fichatitlestyle{
+	color: green;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.person{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.formitem{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.formline{
+	width: 800px;
+	border: 1px solid #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.personbody{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
